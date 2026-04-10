@@ -1,0 +1,19 @@
+{
+  "name": "openclaw-feishu-streaming-patch",
+  "version": "1.0.0",
+  "description": "Patch OpenClaw to enable real Feishu streaming (typewriter effect) output",
+  "main": "patch.js",
+  "bin": {
+    "openclaw-feishu-patch": "./patch.js"
+  },
+  "scripts": {
+    "apply": "node patch.js",
+    "verify": "node patch.js --verify",
+    "rollback": "node patch.js --rollback"
+  },
+  "keywords": ["openclaw", "feishu", "lark", "streaming", "patch"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
