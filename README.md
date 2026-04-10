@@ -2,6 +2,8 @@
 
 A patch script that enables **real Feishu streaming (typewriter effect)** for [OpenClaw](https://github.com/openclaw/openclaw).
 
+![Demo](demo.gif)
+
 ## Background
 
 OpenClaw has full Feishu CardKit streaming infrastructure (`FeishuStreamingSession`, `onPartialReply`, etc.) but the production build has 3 bugs that prevent it from working in the default `renderMode: "auto"` configuration:
